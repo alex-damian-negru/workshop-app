@@ -10,3 +10,6 @@
 
 # Temp files
 tmp/*
+
+# IDEA settings
+/.idea
