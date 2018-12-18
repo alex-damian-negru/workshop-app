@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8046f53-a2d1-4d67-a2b3-149aa1bbddd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env-example" beforeDir="false" afterPath="$PROJECT_DIR$/.env-example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.test-example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.test-example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/types.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/types.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/blog/entities/article.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/blog/entities/article.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,16 +12,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/blog/entities/article.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="105">
+              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/types.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -44,8 +42,8 @@
         <option value="$PROJECT_DIR$/.env.test" />
         <option value="$PROJECT_DIR$/.env.test-example" />
         <option value="$PROJECT_DIR$/.env-example" />
-        <option value="$PROJECT_DIR$/lib/blog/entities/article.rb" />
         <option value="$PROJECT_DIR$/lib/types.rb" />
+        <option value="$PROJECT_DIR$/lib/blog/entities/article.rb" />
       </list>
     </option>
   </component>
@@ -101,12 +99,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545123086033</updated>
-      <workItem from="1545123088742" duration="1117000" />
+      <workItem from="1545123088742" duration="1193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1117000" />
+    <option name="totallyTimeSpent" value="1193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
@@ -173,17 +171,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/blog/entities/article.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/types.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/blog/entities/article.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
         </state>
       </provider>
     </entry>
