@@ -120,27 +120,27 @@ There should be failures for examples in this file:
 
 ### Building a functional object
 
-- [ ] Create a functional operation class for creating an article, in `apps/admin/lib/blog/admin/articles/create.rb`
-- [ ] Define a `#call` method accepting article params
-- [ ] Use the `FormSchema` we already created to validate these params
-- [ ] Create a dummy article repository class (with a `#create` method) at `apps/admin/lib/blog/admin/article_repo.rb`
-- [ ] Inject the article_repo into the `Articles::Create` functional object
-- [ ] When article params are valid, create an article using the repo and return it wrapped in a `Right`
-- [ ] When article params are invalid, return the validation result wrapped in a `Left`
+- [x] Create a functional operation class for creating an article, in `apps/admin/lib/blog/admin/articles/create.rb`
+- [x] Define a `#call` method accepting article params
+- [x] Use the `FormSchema` we already created to validate these params
+- [x] Create a dummy article repository class (with a `#create` method) at `apps/admin/lib/blog/admin/article_repo.rb`
+- [x] Inject the article_repo into the `Articles::Create` functional object
+- [x] When article params are valid, create an article using the repo and return it wrapped in a `Right`
+- [x] When article params are invalid, return the validation result wrapped in a `Left`
 
 ### Inspecting the system
 
 - Inspect the `Blog::Admin::Container` system container
-  - [ ] Open the console and inspect its `.keys`
-  - [ ] Resolve an `articles.create` object from the container
-  - [ ] Call the object with valid/invalid attributes to inspect its output
+  - [x] Open the console and inspect its `.keys`
+  - [x] Resolve an `articles.create` object from the container
+  - [x] Call the object with valid/invalid attributes to inspect its output
 - Inspect the behavior of a non-finalized container
-  - [ ] Comment out the code that finalizes the container (in `apps/admin/system/boot.rb`)
-  - [ ] Open the console and inspect the container's `.keys`
-  - [ ] Count the number of loaded Ruby source files (via `$LOADED_FEATURES.grep(/workshop-app/).count`)
-  - [ ] Initialize an `Admin::Articles::Create` object directly
-  - [ ] Inspect the container's `.keys` again
-  - [ ] Count the number of loaded Ruby source files again (via `$LOADED_FEATURES.grep(/workshop-app/).count`)
+  - [x] Comment out the code that finalizes the container (in `apps/admin/system/boot.rb`)
+  - [x] Open the console and inspect the container's `.keys`
+  - [x] Count the number of loaded Ruby source files (via `$LOADED_FEATURES.grep(/workshop-app/).count`)
+  - [x] Initialize an `Admin::Articles::Create` object directly
+  - [x] Inspect the container's `.keys` again
+  - [x] Count the number of loaded Ruby source files again (via `$LOADED_FEATURES.grep(/workshop-app/).count`)
 
 ### In practice
 
