@@ -1,5 +1,5 @@
-require "db_spec_helper"
-require "blog/admin/article_repo"
+require './spec/db_spec_helper.rb'
+require './apps/admin/lib/blog/admin/article_repo.rb'
 
 RSpec.describe Blog::Admin::ArticleRepo do
   subject(:repo) { described_class.new }
